@@ -4,7 +4,7 @@
       height: 100vh;
       /* Adjust to fit your needs */
       text-align: center;
-      background-image: url('C:\Users\Ishita\Desktop\ToDay\to-day\src\Images\todo_background.png');
+      /* background-image: url('C:\Users\Ishita\Desktop\ToDay\to-day\src\Images\todo_background.png'); */
       background-size: contain;
       /* Fit the entire image within the container */
       background-position: center;
