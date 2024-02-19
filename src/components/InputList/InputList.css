@@ -1,0 +1,47 @@
+#item-container{
+    align-items: left;    
+    flex-direction: row;
+    list-style-type: none;
+    padding: 10px 20px 20px 0;
+        width: 80vh;
+        height: 20px;
+        display: none;
+        justify-content: space-between;
+        position: relative;
+        font-size: 27px;
+        text-align: left;
+        border-radius: 50%;
+        list-style-type:none;
+   
+}
+.input-items{
+font-family: ubuntu;
+display: none;
+}
+/* ul li:hover{
+    color: #ee7878;
+}
+ul li::before {
+    content: '';
+    position: absolute;
+    color: #5b4343;
+    font-size: 30px;
+    cursor: pointer;
+    background-image: url('C:/Users/Ishita/Desktop/ToDay/to-day/src/Images/unchecked.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    top:12px;
+    left: 8px;
+} */
+delete-icon{
+        border-radius: 50%;
+            cursor: pointer;
+            position: absolute;
+            right: 5px;
+            /* Adjust as needed */
+            top: 50%;
+            transform: translateY(-50%);
+                margin-left: auto;
+                margin-right: 0;
+}
