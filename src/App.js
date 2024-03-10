@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Input from "./components/Input/Input.js";
 import InputList from "./components/InputList/InputList.js";
 import "./App.css";
-function App() {
+export const App = () => {
   const [items, setItems] = useState([]);
   function handleItemInput(item) {
     console.log("Adding item:", item);
@@ -20,11 +20,11 @@ function App() {
     setItems(updatedItems);
   };
   return (
-    <div className="App">
-      <div className="App-header">
+    <div>
+      <div>
         {/* <h1>To-Day</h1> */}
         {/* //pass the handleItemInput function to the Input component as a prop */}
-        <div className="text-black">Hello</div>
+        <div>Hello</div>
         console.log('started app');
         <Input handlerItemInput={handleItemInput} />
       </div>
@@ -38,6 +38,4 @@ function App() {
       </div>
     </div>
   );
-}
-
-export default App;
+};
