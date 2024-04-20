@@ -1,0 +1,3 @@
+[submodule "taskmaster-client"]
+	path = taskmaster-client
+	url = D:/MyProjects/ToDay/client/taskmaster-client
